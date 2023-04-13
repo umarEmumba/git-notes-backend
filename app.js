@@ -2,7 +2,7 @@ var express = require("express");
 var cors = require('cors')
 const axios = require('axios');
 var app = express();
-app.listen(3200, () => {
+app.listen(3000, () => {
  console.log("Server running on port 3000");
 });
 app.get("/login", cors(), (req, res, next) => {
